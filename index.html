@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GDP Planet</title>
+		<!--<link rel="stylesheet" type="text/css" href="styles.css" />-->
+	</head>
+	<body>
+		
+		<div id='inputs'>
+
+			<!--<input type="text" id="theInput" placeholder="Country"></input>-->
+			<!--<button id='addButton'>ADD (enter)</button>-->
+			The GDP Planet
+			
+			<!--<button id='logstuff'>LOGSTUFF</button>-->
+			<!--<button id='indicator'>Indicator</button>-->
+
+		</div>
+
+		<div id='mainspace'>
+
+			<canvas id="c">
+			</canvas>
+
+		</div>
+
+		<div id='countrybox'>
+			<div id='countryadd'>
+				<input type="text" id="theInput" placeholder="Country"></input>
+
+				<!--<button id='addButton'>+</button>-->
+			</div>
+			<button id='deleteButton'>DELETE PREVIOUS</button>
+			<button id='deleteButton'>DELETE PREVIOUS</button>
+			<button id='reposition'>RE-POSITION</button>
+
+			<div id='proportionalityb'>
+				<button id='radius'>RADIUS</button>
+				<button id='volume'>VOLUME</button>
+
+			</div>
+		</div>
+
+		<div id='scrollable'>
+		</div>
+
+		<div id='infobox'>
+		</div>
+
+		<div id='buttons'>
+			<div id='indicators'>
+			<button  id='GDPPPP'>GDP PPP</button>
+			<button  id='GDPPPPpercapita'>GDP PPP per capita</button>
+			<button id='TotalPopulation'>Total Population</button>
+			<button  id='ForeignDirectInvestment'>Foreign Direct Investment</button>
+			<!-- <button  id='CO2Emissions'>CO2 Emissions</button>
+			<button  id='UrbanPopulationProportion'>Urban Population (%)</button>
+			<button  id='Unemployment'>Unemployment</button>
+			<button  id='LifeExpectancy'>Life Expectancy</button> -->
+			<!--<button  id='Landarea'>Land Area</button>
+			<button  id='WomeninParliamentProportion'>Women in Parliament (%)</button>-->
+
+
+
+			</div>
+			<div id='animate'>
+				<input type="text" id="yearInput" placeholder="Year (1960-2013)"></input>
+				<button id='animate1'>ANIMATE</button>
+			</div>
+		</div>
+
+
+		<link rel="stylesheet" type="text/css" href="styles.css" />	
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+
+		<!--<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->	
+		<!--<script src='http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.3.10/p5.js'></script>	-->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r67/three.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+		<script src="OrbitControls.js"></script>
+		<script src='app.js'></script>
+	</body>
+</html>

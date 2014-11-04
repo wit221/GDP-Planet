@@ -1,4 +1,5 @@
 //array containing info for currently selected data
+console.log('yo');
 var dataArray=[]; 
 //array containing info for currently selected data for the preceding year (for sphere rotation purposes)
 var dataArray1=[]; 
@@ -278,7 +279,8 @@ function getFDI(){
 					 	}
 				}
 			console.log('50%');
-			getCO2();
+			$('#loading').remove();
+			//getCO2();
 			}
 
 			
@@ -409,7 +411,7 @@ function getLifeExpectancy(){
 					 	}
 				}
 			console.log('90%');
-			$('#loading').remove();
+			
 			//getArea();
 			}
 			

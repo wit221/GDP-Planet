@@ -1417,6 +1417,7 @@ $('#animate1').click(function(){
 		console.log('third',spheres[2].physics.p.x, spheres[2].physics.v.x, spheres[2].physics.a.x,spheres[2].half.p.x);
 	}
 	else{
+		$(this).css('background-color','green');
 		animate3=false;
 		animate2=false;
 	}

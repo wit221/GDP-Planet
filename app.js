@@ -1312,7 +1312,7 @@ $('#animate1').click(function(){
 		return
 	}
 
-	else if(animate2==false){
+	else if(animate2==false && sphere.length ==2){
 
 		$(this).css('background-color','red');
 
@@ -1361,7 +1361,7 @@ $('#animate1').click(function(){
 	}
 
 }
-	else if (spheres.length==3){
+	else if (animate3 ==false && spheres.length==3){
 
 		// $(this).css('background-color','green');
 
